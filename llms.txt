@@ -1,0 +1,33 @@
+# Sales Skills for Codex: List Builder
+
+> Build a targeted list of prospects or businesses from a natural-language brief using Explorium. Use when the user asks to "build a list", "find prospects", "pull a target account list", "give me contacts at", "show me companies that", or names titles, departments, industries, company size, location, tech stack, intent topics, or growth events.
+
+## Summary
+
+This repository contains the `list-builder` skill for Codex — part of a 14-skill series covering the full B2B sales workflow, powered by the Explorium AgentSource API.
+
+## Key Files
+
+- [README.md](README.md): Overview, installation, and usage
+- [SKILL.md](SKILL.md): Full skill definition — workflow, input spec, output format, limitations
+
+## All Skills in This Series
+
+- Account Contact Shortlist: https://github.com/haroExplorium/sales-skills-for-codex-account-contact-shortlist
+- Account Fit Rank: https://github.com/haroExplorium/sales-skills-for-codex-account-fit-rank
+- Account Research: https://github.com/haroExplorium/sales-skills-for-codex-account-research
+- Clean Data: https://github.com/haroExplorium/sales-skills-for-codex-clean-data
+- Competitor Research: https://github.com/haroExplorium/sales-skills-for-codex-competitor-research
+- Decision Makers Map: https://github.com/haroExplorium/sales-skills-for-codex-decision-makers-map
+- Enrich Company: https://github.com/haroExplorium/sales-skills-for-codex-enrich-company
+- Enrich Contact: https://github.com/haroExplorium/sales-skills-for-codex-enrich-contact
+- List Builder: https://github.com/haroExplorium/sales-skills-for-codex-list-builder
+- Lookalike Accounts: https://github.com/haroExplorium/sales-skills-for-codex-lookalike-accounts
+- Market Sizing: https://github.com/haroExplorium/sales-skills-for-codex-market-sizing
+- Meeting Prep: https://github.com/haroExplorium/sales-skills-for-codex-meeting-prep
+- Personalize Email: https://github.com/haroExplorium/sales-skills-for-codex-personalize-email
+- Score Leads: https://github.com/haroExplorium/sales-skills-for-codex-score-leads
+
+## Source
+
+https://github.com/explorium-ai/Agent-skills/tree/main/skills/list-builder
