@@ -1,21 +1,37 @@
-# Sales Skills for Codex: List Builder
+<h1 align="center">Sales Skills for Codex: List Builder</h1>
 
-> Build a targeted list of prospects or businesses from a natural-language brief using Explorium. Use when the user asks to "build a list", "find prospects", "pull a target account list", "give me contacts at", "show me companies that", or names titles, departments, industries, company size, location, tech stack, intent topics, or growth events.
+<p align="center">
+  <strong>Build a targeted list of prospects or businesses from a natural-language brief using Explorium. Use when the user asks to "build a list", "find prospects", "pull a target account list", "give me contacts at", "show me companies that", or names titles, departments, industries, company size, location, tech stack, intent topics, or growth events.</strong>
+</p>
 
-## What This Skill Does
+---
 
-Turn a natural-language audience brief into a clean, exportable prospect or business list backed by Explorium data.
+## Overview
+
+Drop this skill into Codex and your AI agent gains the ability to turn a natural-language audience brief into a clean, exportable prospect or business list backed by explorium data.
+
+This skill is part of a 14-skill series covering the full B2B sales workflow, powered by the [Explorium AgentSource API](https://explorium.ai) — 350M+ people, 80M+ companies, real-time firmographics, technographics, funding signals, and verified contact data.
+
+## Repository structure
+
+```
+.
+├── SKILL.md     # Full skill definition — input, workflow, output format, limitations
+├── llms.txt     # AI-readable summary of this skill and the full series
+└── README.md
+```
 
 ## Installation
 
-Install the [Explorium CLI](https://github.com/explorium-ai/cli) and add this skill to your Codex agent:
+### Codex
 
 ```bash
-pip install explorium-cli
-explorium config init -k YOUR_API_KEY
+codex --context SKILL.md
 ```
 
-Copy `SKILL.md` into your Codex skills directory, or use it via the [Vibe Prospecting plugin](https://vibeprospecting.ai).
+### Claude Code / Cursor / Windsurf / any agent that reads Markdown
+
+Point your agent at `SKILL.md` for the full skill instructions.
 
 ## Usage
 
@@ -31,16 +47,11 @@ Find heads of demand gen at 200-1000 person fintech companies in NYC.
 Give me 50 CFOs at public manufacturing companies that raised funding in the last 90 days.
 ```
 
-## Key Files
+```
+Pull a target account list of cybersecurity companies under 500 employees in the UK with intent on zero trust.
+```
 
-- **[SKILL.md](SKILL.md)** — Full skill: input spec, step-by-step workflow, output format, limitations
-- **[llms.txt](llms.txt)** — AI-readable index of this skill and all related skills
-
-## Powered by Explorium
-
-This skill uses the [Explorium AgentSource API](https://explorium.ai) — 350M+ people, 80M+ companies, real-time firmographics, technographics, funding signals, and verified contact data.
-
-## Related Skills
+## Related skills in this series
 
 - [Account Contact Shortlist](https://github.com/haroExplorium/sales-skills-for-codex-account-contact-shortlist)
 - [Account Fit Rank](https://github.com/haroExplorium/sales-skills-for-codex-account-fit-rank)
@@ -58,4 +69,4 @@ This skill uses the [Explorium AgentSource API](https://explorium.ai) — 350M+ 
 
 ## License
 
-MIT — see [LICENSE](LICENSE)
+MIT
